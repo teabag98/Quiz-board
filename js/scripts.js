@@ -1,13 +1,17 @@
 
 
 $(document).ready(function(){
-  $("form#quiz").click(function(event){
+  $("form#quiz").submit(function(event){
     event.preventDefault();
-    var radios =["radio1", "radio2","radio3","radio4"];
-    radios.forEach(function(radio){
-      var oneRadio = $("input:radio[name= radio ]:checked").val();
-      $(".col-md-4").text(oneRadio);
-    });
+    var radios =["1", "2","3","4"];
+     radios.forEach(function(eachRadio){
+
+         var oneRadio = $("input:radio[name=radio" + eachRadio+"]:checked").val();
+         $("#results").text(oneRadio);
+     });
+   });
+
+
 
   });
 });
