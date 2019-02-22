@@ -21,7 +21,7 @@
     </div>
     <br><br><br><br><br>
     <div class="row">
-      <form id="quiz">
+      <form id="javascr" name="javascr">
         <div class="col-md-8">
           <p><b>1. What does a javascript program do?</b></p>
           <div class="radio">
@@ -36,51 +36,53 @@
 
           <p><b>2. What type of a language is javascript?</b></p>
           <div class="radio">
-            <label for="quiz a"><input type="radio" name="radio2" value="3" >scripting</label>
+            <label for="quiz a"><input type="radio" name="radio2" value="1" >scripting</label>
           </div>
           <div class="radio">
-            <label for=""><input type="radio" name="radio2" value="4">mark up</label>
+            <label for=""><input type="radio" name="radio2" value="2">mark up</label>
           </div>
           <div class="radio">
-            <!-- <label for=""><input type="radio" name="radio2" value="5">styling</label> -->
+            <label for=""><input type="radio" name="radio2" value="3">styling</label>
           </div>
 
           <p><b>3. Who developed javascript?</b></p>
           <div class="radio">
-            <label for="quiz a"><input type="radio" name="radio3" value="6" >Icenberg</label>
+            <label for="quiz a"><input type="radio" name="radio3" value="1" >Icenberg</label>
           </div>
           <div class="radio">
-            <label for=""><input type="radio" name="radio3" value="7">Eich</label>
+            <label for=""><input type="radio" name="radio3" value="2">Eich</label>
           </div>
           <div class="radio">
-            <label for=""><input type="radio" name="radio3" value="8">eric</label>
+            <label for=""><input type="radio" name="radio3" value="3">eric</label>
           </div>
 
           <p><b>4. Which one is a javascript library</b></p>
           <div class="radio">
-            <label for="quiz a"><input type="radio" name="radio4" value="9" >scripting</label>
+            <label for="quiz a"><input type="radio" name="radio4" value="1" >scripting</label>
           </div>
           <div class="radio">
-            <label for=""><input type="radio" name="radio4" value="10">mark up</label>
+            <label for=""><input type="radio" name="radio4" value="2">mark up</label>
           </div>
           <div class="radio">
-            <label for=""><input type="radio" name="radio4" value="11">styling</label>
+            <label for=""><input type="radio" name="radio4" value="3">styling</label>
           </div>
           <p><b>5. Is .push() a method?</b></p>
           <div class="checkbox">
-            <label for=""><input type="checkbox" name="checkbox1" value="12">Yes</label><br>
-            <label for=""><input type="checkbox" name="checkbox1" value="13">No</label>
+            <label for=""><input type="checkbox" name="checkbox1" value="1">Yes</label><br>
+            <label for=""><input type="checkbox" name="checkbox1" value="">No</label>
           </div>
 
-          <input type="button" name="button1" value="submit">
+          <input onclick="marks()" type="button" name="button1" value="submit">
         </div>
 
       </form>
 
+<div class="col-md-4">
+  <p  id="results">
 
-      <p  id="results" class="col-md-4">
+  </p>
 
-      </p>
+</div>
 
     </div>
 
