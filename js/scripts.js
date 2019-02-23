@@ -3,7 +3,9 @@
 $(document).ready(function(){
 
 $("button#submit").click(function(){
-$(".col-md-4").append("You are a winnrknknknkknknknknknknknknknknknknknknknknknknkkknknekrglnelkrgnlenrglernglerng");
+
+  $(".col-md-4").addClass("yourScore");
+$(".col-md-4").text("You are a winnrknknknkknknknknknknknknknknknknknknknknknknkkknknekrglnelkrgnlenrglernglerng");
 });
 
 });

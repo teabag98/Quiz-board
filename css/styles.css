@@ -37,17 +37,20 @@ form{
   width: 100%;
 }
 .row{
-
+/* display: flex;
+flex-direction: column; */
 }
 .col-md-8{
-  width: 50%;
+  /* width: 50%; */
 }
 .col-md-4{
   position:absolute;
- top:0;
- right:0;
- padding-left: 20em;
-  overflow-x: auto;
+ top:30em;
+ right:3em;
+ overflow-x: hidden;
+ overflow-y: scroll;
+padding: 3em;
+mar
 }
 
 .yourScore{
