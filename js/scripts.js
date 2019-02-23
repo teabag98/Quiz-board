@@ -3,10 +3,23 @@
 $(document).ready(function(){
 
 $("button#submit").click(function(){
-
+  var input1=parseInt($("input:radio[name=radio1]:checked").val());
+  var input2=parseInt($("input:radio[name=radio2]:checked").val());
+  var input3=parseInt($("input:radio[name=radio3]:checked").val());
+  var input4=parseInt($("input:radio[name=radio5]:checked").val());
+  var results = eval(input1 + input2+input3+input4);
+ $(".col-md-4").removeClass();
   $(".col-md-4").addClass("yourScore");
-$(".col-md-4").text("Youhiuhhiuhabkjf<jb<'bglbe'gHQPOJAWFK'L;EJHWOJE1KJEWJFQOJWBRJWEFQKOEJFQWOJEWB");
+$(".col-md-4").text("Your score is "+ results );
 });
 
 });
-var input1=$("input:radio[name=radio1]:checked").val();
+
+
+
+//business logic
+
+function messages(){
+  var allValues = ["input1","input2","input3","input4","input5"]
+
+}
