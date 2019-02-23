@@ -5,7 +5,7 @@ $(document).ready(function(){
 $("button#submit").click(function(){
 
   $(".col-md-4").addClass("yourScore");
-$(".col-md-4").text("You are a winnrknknknkknknknknknknknknknknknknknknknknknknkkknknekrglnelkrgnlenrglernglerng");
+$(".col-md-4").text("Youhiuhhiuhabkjf<jb<'bglbe'gHQPOJAWFK'L;EJHWOJE1KJEWJFQOJWBRJWEFQKOEJFQWOJEWB");
 });
 
 });

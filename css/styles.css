@@ -47,12 +47,14 @@ flex-direction: column; */
   position:absolute;
  top:30em;
  right:3em;
- overflow-x: hidden;
- overflow-y: scroll;
+
 padding: 3em;
 mar
 }
 
 .yourScore{
 background-color:#006400;
+word-wrap: break-word;
+/* overflow-x: hidden; */
+overflow-y: scroll;
 }
