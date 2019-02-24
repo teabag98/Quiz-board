@@ -72,6 +72,7 @@ margin-left: 8em;
   bottom: 0;
   right: 0;
   margin-right: 2em;
+  display: none;
 
 }
 #link>a{
@@ -83,8 +84,8 @@ a:hover{
   background-color: #006400;
 }
 .welcome{
+  display: none;
   width: 500px;
-
   left: 2em;
   box-shadow: 0 0 20px black;
 margin-left: 24em;
