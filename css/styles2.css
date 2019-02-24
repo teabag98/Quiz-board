@@ -66,3 +66,34 @@ margin-left: 8em;
 
 
 }
+
+#link{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2em;
+
+}
+#link>a{
+  text-decoration: none;
+  background-color: #3CB371;
+  padding: 2em;
+}
+a:hover{
+  background-color: #006400;
+}
+.welcome{
+  width: 500px;
+
+  left: 2em;
+  box-shadow: 0 0 20px black;
+margin-left: 24em;
+ opacity: 0.5;
+ padding: 1em;
+ border-radius: 1%;
+ text-align: center;
+ font-size: 10px;
+margin-top: -10;
+
+font-size: 2em;
+}
