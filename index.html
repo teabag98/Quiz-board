@@ -1,118 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Quiz</title>
-  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Padauk" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Padauk" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles2.css">
 </head>
 
-
-
 <body>
-  <div class="container-fluid">
-    <div id="header">
-      <h1>Welcome to the javascript quiz</h1>
-      <h2>You'll be expected to pick the choices provided to you.</h2>
-      <h2>After that you will submit your work by clicking the submit button</h2>
-      <h2>You will then get your score. All the best!!</h2>
-    </div>
-    <br><br><br>
-
-
-
-
-    <div class="row">
-      <div class="col-md-8">
-        <form id="javascr" name="javascr">
-
-          <p><b>1. What does a javascript program do?</b></p>
-          <div class="radio">
-            <label for="quiz a"><input type="radio" name="radio1" value="0">style the page</label>
-          </div>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio1" value="30">make a page more interactive</label>
-          </div>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio1" value="0">store database</label>
-          </div>
-
-          <p><b>2. What type of a language is javascript?</b></p>
-          <div class="radio">
-            <label for="quiz a"><input type="radio" name="radio2" value="30">scripting</label>
-          </div>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio2" value="0">mark up</label>
-          </div>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio2" value="0">styling</label>
-          </div>
-
-          <p><b>3. Who developed javascript?</b></p>
-          <div class="radio">
-            <label for="quiz a"><input type="radio" name="radio3" value="0">Icenberg</label>
-          </div>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio3" value="30">Eich</label>
-          </div>
-          <div class="radio">
-            <label for="50">
-              <input type="radio" name="radio3" value="0">eric</label>
-          </div>
-
-          <p><b>4. Which one is a javascript library</b></p>
-          <div class="radio">
-            <label for="quiz-1"><input type="radio" name="radio4" value="0">bootstrap</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="radio4" value="30">jquery</label>
-          </div>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio4" value="0">python</label>
-          </div>
-          <p><b>5. Is .push() a method?</b></p>
-          <div class="radio">
-            <label for=""><input type="radio" name="radio5" value="10">Yes</label><br>
-            <label for=""><input type="radio" name="radio5" value="0">No</label>
-          </div>
-
-          <button onclick="return messages();" id="submit" type="button" name="button">Get results</button>
-
-        </form>
-      </div>
-      <div class="col-md-4">
-        <p id="results">
-
-        </p>
+  <div class="container">
+    <form id="data" class="userData" action="home.html" method="post">
+      <div class="heading">
+        <h1>Before we begin this quiz, we would like you to please fill this form where appropriate</h1>
 
       </div>
-
-      <div class="box">
-        <span class="glyphicon glyphicon-ok"></span>
-        <h1>Thank you !</h1>
-        <p>click ok to get results</p>
-        <button id="boxbutton1"type="button" name="button">OK</button>
-      </div>
-      <div class="box2">
-
-        <h1>!! please check all boxes</h1>
-
-      <button id="boxbutton2"type="button" name="button">ok</button>
-      </div>
-
-    </div>
+<div class="row">
+<div class="col-md-6">
+  <div class="candidate">
+    <h2>Candidate information</h2>
   </div>
+</div>
+<div class="col-md-6">
+  <div class="welcome">
+    <p>Hello <span class="name">  </span> welcome,,click the take test button below,,and have fun!!!</p>
+
+  </div>
+</div>
+</div>
+
+
+      <div class="input">
+        <div class="input-group">
+          <div class="input-group-addon">
+            <span class="glyphicon glyphicon-user"></span>
+          </div>
+          <input class="form-control" id="user" name="user" type="text">
+        </div>
+
+        <div class="input-group">
+          <div class="input-group-addon">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </div>
+          <input class="form-control" id="email" name="email" type="text" />
+        </div>
+
+        <div class="input-group">
+          <div class="input-group-addon">
+            <span class="glyphicon glyphicon-phone-alt"></span>
+          </div>
+          <input class="form-control" id="phone" name="phone" type="text" />
+        </div>
+
+
+        <div class="submit">
+          <input id="submit" type="button" name="submit" value="submit">
+        </div>
+      </div>
+
+    </form>
+    <div id="link">
+      <a href="index.html">Take test</a>
+    </div>
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/scripts.js" type="text/javascript">
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/home.js" type="text/javascript">
 
-    </script>
+  </script>
 </body>
 
 </html>

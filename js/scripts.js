@@ -19,6 +19,15 @@ function messages() {
     return true;
   }
 };
+ var index =0
+function results(){
+  if(score==30){
+    index+=30;
+  }
+  else{
+    index+=0
+  }
+}
 
 
 
