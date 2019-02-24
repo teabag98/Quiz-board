@@ -1,0 +1,68 @@
+body{
+  background-color: #006400;
+  color: white;
+  background-attachment: fixed;
+}
+
+.heading{
+  width: 1000px;
+  box-shadow: 0 0 20px black;
+  padding: 2em;
+  border-radius: 2em;
+  text-align: center;
+  top:10em;
+  opacity: 0.6;
+  font-family: 'Oswald', sans-serif;
+}
+.input-group{
+  width: 500px;
+  top: 3em;
+  left: 1em;
+  box-shadow: 0 0 20px black;
+  margin: 3em;
+ opacity: 0.5;
+}
+.input{
+  padding: 2em;
+
+}
+#email{
+  background-color :#3CB371;
+
+}
+#user{
+  background-color :#3CB371 ;
+
+}
+#phone{
+  background-color :#3CB371 ;
+}
+#submit{
+  top: 3em;
+  left: 10em;
+  box-shadow: 0 0 20px black;
+  margin: 4em;
+  margin-left: 5em;
+  background-color: #006400;
+  border-radius: 10px #006400;
+  opacity: 0.8;
+
+}
+.candidate{
+  width: 500px;
+  top: 3em;
+  left: 2em;
+  box-shadow: 0 0 20px black;
+margin-left: 8em;
+ opacity: 0.5;
+ padding: 2em;
+ border-radius: 1%;
+ text-align: center;
+ font-size: 10px;
+ margin-bottom: 0;
+ margin-top: 10em;
+
+ /* height: 20em; */
+
+
+}
