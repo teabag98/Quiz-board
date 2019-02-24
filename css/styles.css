@@ -71,7 +71,7 @@ button{
 button:focus{
   background:#556B2F;
 }
-#box ,#box2{
+.box ,.box2{
   width: 500px;
   overflow: hidden;
   background-color: #f1f1f1;
@@ -85,11 +85,12 @@ button:focus{
   z-index: 9999;
   padding: 10px;
   text-align: center;
+  display: none;
 
 
 
 }
-#box span{
+.box span{
   color: green;
   font-size: 30px;
   background-color: white;
@@ -98,6 +99,6 @@ button:focus{
   padding: 10px;
   border-width: thin;
 }
-#box h1,#box2 h1{
+.box h1,.box2 h1{
   font-size: 40px;
 }
