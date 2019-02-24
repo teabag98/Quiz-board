@@ -71,11 +71,11 @@ button{
 button:focus{
   background:#556B2F;
 }
-#box{
+#box ,#box2{
   width: 500px;
   overflow: hidden;
   background-color: #f1f1f1;
-  color:#556B2F ;
+  color:grey;
   box-shadow: 0 0 20px black;
   border-radius: 8px;
   position: absolute;
@@ -83,6 +83,21 @@ button:focus{
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 9999;
+  padding: 10px;
+  text-align: center;
 
 
+
+}
+#box span{
+  color: green;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0 0 20 black;
+  padding: 10px;
+  border-width: thin;
+}
+#box h1,#box2 h1{
+  font-size: 40px;
 }
