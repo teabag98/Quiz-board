@@ -3,7 +3,7 @@ $(document).ready(function(){
     event.preventDefault();
     var name = $("input#user").val();
     $(".name").text(name);
-    $(".welcome").show();
-    $("#link").show();
+    $(".welcome").slideDown();
+    $("#link").fadeIn();
   });
 });

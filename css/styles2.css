@@ -49,18 +49,18 @@ body{
 
 }
 .candidate{
-  width: 500px;
-  top: 3em;
-  left: 2em;
+  /* width: 500px; */
+  /* top: 3em;
+  left: 2em; */
   box-shadow: 0 0 20px black;
-margin-left: 8em;
+/* margin-left: 8em; */
  opacity: 0.5;
  padding: 2em;
  border-radius: 1%;
  text-align: center;
  font-size: 10px;
- margin-bottom: 0;
- margin-top: 10em;
+ /* margin-bottom: 0;
+ margin-top: 10em; */
 
  /* height: 20em; */
 
@@ -71,7 +71,7 @@ margin-left: 8em;
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 2em;
+  margin-right: 15em;
   display: none;
 
 }
@@ -79,22 +79,33 @@ margin-left: 8em;
   text-decoration: none;
   background-color: #3CB371;
   padding: 2em;
+  border-radius: 3em;
+
 }
-a:hover{
-  background-color: #006400;
+#link>a:hover{
+  background-color: #556B2F;
 }
 .welcome{
   display: none;
-  width: 500px;
-  left: 2em;
+  /* width: 500px;
+  left: 2em; */
   box-shadow: 0 0 20px black;
-margin-left: 24em;
+/* margin-left: 24em; */
  opacity: 0.5;
  padding: 1em;
  border-radius: 1%;
  text-align: center;
  font-size: 10px;
-margin-top: -10;
-
+/* margin-top: -10; */
+font-family: 'Open Sans Condensed', sans-serif;
 font-size: 2em;
+margin-left: 0;
+background-color: white;
+color: #006400;
+}
+.row{
+  margin-top: 3em;
+}
+.container{
+  text-transform: uppercase;
 }
