@@ -20,6 +20,7 @@ padding-right: 1em; */
   opacity: 0.7;
   border-radius: 3em;
   box-shadow:  0 0 20px black;
+  padding: 10em;
 }
 
 .row {
@@ -61,8 +62,9 @@ flex-direction: column; */
   /* overflow-x: hidden; */
   /* overflow-y: auto; */
   box-shadow: 0 0 20px black;
-  left: 20em;
-  bottom: 30em;
+  left: 30em;
+  bottom: 40em;
+  top: 33em;
   border-radius: 8px;
   text-align: center;
   padding-bottom: 4em;
