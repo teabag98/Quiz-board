@@ -27,7 +27,7 @@ function messages(){
 
 
 if(output1== ""|| output2 ==""||output3==""||output4==""){
-//custom dialog box
+//custom alert box
 
 return false;
 }
